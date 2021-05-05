@@ -1,0 +1,44 @@
+<!--  MPD XML Starter code Semester B Session 2018 2019  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:text="Student ID: S1903342"
+        android:textColor="@color/primaryDarkColor"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:text="Press to get data" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="0dp"
+        android:background="@color/secondaryColor"
+        android:gravity="center"
+        android:text="Contains British Geological Survey Materials ©NERC 2019"
+        android:textColor="@color/secondaryTextColor"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

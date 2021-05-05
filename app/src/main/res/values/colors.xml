@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    Primary & Secondary Colors-->
+    <color name="primaryColor">#efebe9</color>
+    <color name="primaryLightColor">#ffffff</color>
+    <color name="primaryDarkColor">#bdb9b7</color>
+    <color name="secondaryColor">#263238</color>
+    <color name="secondaryLightColor">#4f5b62</color>
+    <color name="secondaryDarkColor">#000a12</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#ffffff</color>
+    <color name="light_grey">#F6F6F6</color>
+
+    <!--    Earthquake Intensity Colors-->
+    <color name="minor">#AFE281</color>
+    <color name="light">#D3E281</color>
+    <color name="moderate">#EBC46A</color>
+    <color name="strong">#E89850</color>
+    <color name="major">#F07D45</color>
+    <color name="great">#DC6161</color>
+</resources>

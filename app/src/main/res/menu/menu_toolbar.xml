@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_swap"
+        android:icon="@drawable/ic_swap"
+        android:title="Swap"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/item_filter"
+        android:icon="@drawable/ic_filter_list"
+        android:title="Filter"
+        app:showAsAction="always" />
+</menu>
