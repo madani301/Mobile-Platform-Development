@@ -180,10 +180,13 @@ public class MainActivity extends AppCompatActivity {
     /*
         It starts a timer when the user fetches data from the source, and once the timer expires, it auto-fetches
         data again from the source. It allows auto-updating the data wherever the user is in the app.
+
+        For testing purposes, it was set at 60000 milliseconds to demonstrate its implementation. By default, I set
+        it at 900000 milliseconds (15 minutes).
     */
     public void requestForURL() {
         final Handler handler = new Handler();
-        final int delay = 60000; // 1000 milliseconds == 1 second
+        final int delay = 900000; // 1000 milliseconds == 1 second
 
         handler.postDelayed(new Runnable() {
             public void run() {
